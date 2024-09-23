@@ -1,0 +1,98 @@
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #202124;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background: #333;
+  box-shadow: 12px 12px 2px 1px rgba(212, 10, 10, 0.08);
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.mito {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.5);
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  transition: all 150ms ease-in-out;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: red;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: red;
+}
+
+a:focus {
+  color: red;
+}
+
+:link {
+  color: red;
+}
